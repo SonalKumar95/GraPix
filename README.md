@@ -21,6 +21,9 @@ suim
         |── name_12.png
         └── name_22.png
 ```
-## Traning GraPix
+## Setup Conda Environment
+CMD: conda env create -f GraPix.yml
+
+## Training GraPix
 
 ## Evaluating Grapix
