@@ -21,3 +21,6 @@ suim
         |── name_12.png
         └── name_22.png
 ```
+## Traning GraPix
+
+## Evaluating Grapix
