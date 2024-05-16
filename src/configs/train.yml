@@ -1,0 +1,85 @@
+output_root: '../'
+pytorch_data_dir: '/workspace/arijit/SKJ/STEGO-master/data'
+experiment_name: "exp1_KNN_CROP_NL1V2_3D"
+log_dir: "suim" #"cityscapes"
+azureml_logging: True
+submitting_to_aml: False
+
+# Loader params
+num_workers: 1
+max_steps: 7500
+batch_size: 8
+
+num_neighbors: 7
+dataset_name: "directory" #"cityscapes"
+
+# Used if dataset_name is "directory"
+dir_dataset_name: 'suim'
+dir_dataset_n_classes: 6
+
+has_labels: True
+crop_type: "None" #"five"
+crop_ratio: .5
+res: 224
+loader_crop_type: "center"
+
+# Model Params
+extra_clusters: 0
+use_true_labels: False
+use_recalibrator: False
+#model_type: "vit_small"
+model_type: "vit_base"
+arch: "dino"
+use_fit_model: False
+dino_feat_type: "feat"
+#projection_type: "nonlinear"
+projection_type: linear
+dino_patch_size: 8
+granularity: 1
+continuous: True
+dim: 70
+dropout: True
+zero_clamp: True
+
+#lr: 5e-4
+lr: 5e-4
+pretrained_weights: ~
+use_salience: False
+stabalize: False
+stop_at_zero: True
+
+#knn confident_clustering (update model path and set to True)
+knn_clustering: False
+topk: 25
+entropy: 2.0
+model_paths_1:
+  - "/workspace/arijit/SKJ/STEGO-master/checkpoints/cityscapes/29TH_RUN/cityscapes_exp1_CROP_NL1V2_3_date_Mar14_11-42-34/epoch=5-step=4000.ckpt" #"5suim/26TH_RUN/directory_SL_NONE_L3V2_CROP_date_Mar10_11-07-07/epoch=1-step=2400.ckpt"
+
+#confident clustering
+confident_clustering: False
+threshold: 0.99
+apply_class_balancing: False
+centroid_path: "None"
+  #- "/workspace/arijit/SKJ/STEGO-master/checkpoints/extra/centroid_1st_pass_1.1.pth"
+net_path: "None"
+  #- "/workspace/arijit/SKJ/STEGO-master/checkpoints/extra/net_checkpoint.pth"
+model_paths:
+  #- "/workspace/arijit/SKJ/STEGO-master/checkpoints/5suim/14th_run/directory_exp1_1stPass_2_date_Jan20_20-45-33/epoch=26-step=10000.ckpt"
+  - "/workspace/arijit/SKJ/STEGO-master/checkpoints/5suim/6th_run/directory_exp1_both_date_Jan16_15-36-30/epoch=12-step=4800.ckpt"
+
+rec_weight: 0.0
+reset_probe_steps: ~
+
+# Logging params
+n_images: 2
+scalar_log_freq: 10
+checkpoint_freq: 50
+val_freq: 200
+hist_freq: 100
+
+hydra:
+  run:
+    dir: "."
+  output_subdir: ~
+  #job_logging: "disabled"
+  #hydra_logging: "disabled"
