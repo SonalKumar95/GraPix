@@ -22,7 +22,8 @@ suim
         └── name_22.png
 ```
 ## Setup Conda Environment
-CMD: conda env create -f GraPix.yml
+Step 1: Go to GraPix-master folder
+Step 2: Run CMD 'conda env create -f GraPix.yml'
 
 ## Training GraPix
 
