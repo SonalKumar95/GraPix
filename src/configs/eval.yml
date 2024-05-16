@@ -14,7 +14,7 @@ kmeans: True
 
 model_paths:
   #- "/workspace/arijit/SKJ/GraPix-master/checkpoints/cityscapes/cityscapes_exp1_SL_KNN_CROP_NL1V2_3A_date_Mar15_11-24-17/epoch=0-step=3600.ckpt"
-  - "/workspace/arijit/SKJ/GraPix-master/checkpoints/suim/directory_exp1_NONE_L3V2_date_Mar05_22-26-03/epoch=2-step=800.ckpt"
+  - "/workspace/arijit/SKJ/GraPix-master/checkpoints/suim/epoch=2-step=800.ckpt"
 
 hydra:
   run:
