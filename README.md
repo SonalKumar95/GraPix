@@ -22,9 +22,16 @@ suim
         └── name_22.png
 ```
 ## Setup Conda Environment
-Step 1: Go to GraPix-master folder
+```
+Step 1: Go to the GraPix-master folder
 Step 2: Run CMD 'conda env create -f GraPix.yml'
-
+```
 ## Training GraPix
 
 ## Evaluating Grapix
+```
+Step 1: Modify the eval.yaml file of the Config folder accordingly. Change the 'experiment_name' and 'model_paths'.
+Step 2: Run cmd 'python eval_segmentation.py'
+```
+
+```
