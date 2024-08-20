@@ -1,11 +1,8 @@
 # GraPix: Exploring Graph Modularity Optimization for Unsupervised Pixel Clustering ![Views](https://komarev.com/ghpvc/?username=SonalKumar95)
-```
 ![Block](GRAPIX.png)
-```
+
 ## Unsupervised Segmentation Loss
-```
 ![Block](GRAPIX_Loss.png)
-```
 
 ## Data directory organization
 ```
