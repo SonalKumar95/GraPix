@@ -1,5 +1,5 @@
 # GraPix: Exploring Graph Modularity Optimization for Unsupervised Pixel Clustering
-![Block](GRAPIX_FW.pdf)
+![Block](GRAPIX.png)
 ## Data directory organization
 ```
 data
