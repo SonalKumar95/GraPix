@@ -1,4 +1,5 @@
 # GraPix: Exploring Graph Modularity Optimization for Unsupervised Pixel Clustering ![Views](https://komarev.com/ghpvc/?username=SonalKumar95)
+### This [Paper](https://ieeexplore.ieee.org/document/10447607) is accepted in the 'International Conference on Pattern Recognition (ICPR) 2024.
 ![Block](GRAPIX.png)
 
 ## Unsupervised Segmentation Loss
@@ -38,11 +39,9 @@ Step 1: Modify the eval.yaml file of the Config folder accordingly. Change the '
 Step 2: Run cmd 'python eval_segmentation.py'
 Note: To reproduce paper results for the GraPix stage, comment out lines 64 to 70 in the 'main.py' file. 
 ```
-## Citation
+## Cite Us
 ```
 GraPix
 ```
 ## Acknowledgement
-```
-STEGO
-```
+We thank the authors of the [STEGO](https://github.com/mhamilton723/STEGO) for providing details on their implementation, which is used to develop the GraPix Framework.
