@@ -1,8 +1,11 @@
 # GraPix: Exploring Graph Modularity Optimization for Unsupervised Pixel Clustering ![Views](https://komarev.com/ghpvc/?username=SonalKumar95)
+```
 ![Block](GRAPIX.png)
-
+```
 ## Unsupervised Segmentation Loss
+```
 ![Block](GRAPIX_Loss.png)
+```
 
 ## Data directory organization
 ```
@@ -37,4 +40,12 @@ Step 2: Run CMD 'conda env create -f GraPix.yml'
 Step 1: Modify the eval.yaml file of the Config folder accordingly. Change the 'experiment_name' and 'model_paths'.
 Step 2: Run cmd 'python eval_segmentation.py'
 Note: To reproduce paper results for the GraPix stage, comment out lines 64 to 70 in the 'main.py' file. 
+```
+## Citation
+```
+GraPix
+```
+## Acknowledgement
+```
+STEGO
 ```
