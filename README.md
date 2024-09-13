@@ -36,7 +36,7 @@ Step 3: conda activate GraPix
 ```
 Step 1: cd src/
 Step 2: python main.py
-NOTE: Edit dataset path in 'config/train.yaml' before training. Also, after GraPix training set required booling variable to 'true' and change checkpoint path in yaml file for corresponding Additional Unsupervised Training.
+NOTE: Edit dataset path in 'config/train.yaml' before training. Also, after the GraPix training set required booling variable to 'true' and change checkpoint path in yaml file for corresponding Additional Unsupervised Training.
 ```
 ## Evaluating Grapix
 ```
@@ -46,7 +46,7 @@ Note: To reproduce paper results for the GraPix stage, comment out lines 64 to 7
 ```
 ## Cite Us
 ```
-GraPix
+S. Kumar, A. Sur, and R. D. Baruah, "GraPix: Exploring Graph Modularity Optimization for Unsupervised Pixel Clustering", ICPR 2024.
 ```
 ## Acknowledgement
 We thank the authors of the [STEGO](https://github.com/mhamilton723/STEGO) for providing details on their implementation, which is used to develop the GraPix Framework.
