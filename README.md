@@ -26,13 +26,18 @@ suim
         |── name_12.png
         └── name_22.png
 ```
-## Setup Conda Environment
+## Setup and Activate Conda Environment
 ```
-Step 1: Go to the GraPix-master folder
-Step 2: Run CMD 'conda env create -f GraPix.yml'
+Step 1: cd GraPix-master folder
+Step 2: conda env create -f GraPix.yml
+Step 3: conda activate GraPix
 ```
 ## Training GraPix
-
+```
+Step 1: cd src/
+Step 2: python main.py
+NOTE: Edit dataset path in 'config/train.yaml' before training. Also, after GraPix training set required booling variable to 'true' and change checkpoint path in yaml file for corresponding Additional Unsupervised Training.
+```
 ## Evaluating Grapix
 ```
 Step 1: Modify the eval.yaml file of the Config folder accordingly. Change the 'experiment_name' and 'model_paths'.
