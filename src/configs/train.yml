@@ -1,6 +1,6 @@
 output_root: '../'
-pytorch_data_dir: '/workspace/arijit/SKJ/STEGO-master/data'
-experiment_name: "exp1_KNN_CROP_NL1V2_3D"
+pytorch_data_dir: '/GraPix-master/data'
+experiment_name: "exp1"
 log_dir: "suim" #"cityscapes"
 azureml_logging: True
 submitting_to_aml: False
