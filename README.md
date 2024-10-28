@@ -44,6 +44,10 @@ Step 1: Modify the eval.yaml file of the Config folder accordingly. Change the '
 Step 2: Run cmd 'python eval_segmentation.py'
 Note: To reproduce paper results for the GraPix stage, comment out lines 64 to 70 in the 'main.py' file. 
 ```
+## Results
+![Block](table.png)
+![Block](image.png)
+
 ## Cite Us
 ```
 S. Kumar, A. Sur, and R. D. Baruah, "GraPix: Exploring Graph Modularity Optimization for Unsupervised Pixel Clustering", ICPR 2024.
