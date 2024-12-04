@@ -50,7 +50,7 @@ Note: To reproduce paper results for the GraPix stage, comment out lines 64 to 7
 
 ## Cite Us
 ```
-S. Kumar, A. Sur, and R. D. Baruah, "GraPix: Exploring Graph Modularity Optimization for Unsupervised Pixel Clustering", ICPR 2024.
+Kumar, S., Sur, A., Baruah, R.D. (2025). GraPix: Exploring Graph Modularity Optimization for Unsupervised Pixel Clustering. In: Antonacopoulos, A., Chaudhuri, S., Chellappa, R., Liu, CL., Bhattacharya, S., Pal, U. (eds) Pattern Recognition. ICPR 2024. Lecture Notes in Computer Science, vol 15310. Springer, Cham. https://doi.org/10.1007/978-3-031-78192-6_13 
 ```
 ## Acknowledgement
 We thank the authors of the [STEGO](https://github.com/mhamilton723/STEGO) for providing details on their implementation, which is used to develop the GraPix Framework.
