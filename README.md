@@ -1,5 +1,6 @@
 # GraPix: Exploring Graph Modularity Optimization for Unsupervised Pixel Clustering ![Views](https://komarev.com/ghpvc/?username=SonalKumar95)
-### This [Paper](https://doi.org/10.1007/978-3-031-78192-6_13) is accepted in the 'International Conference on Pattern Recognition (ICPR) 2024.
+### This [Paper](https://doi.org/10.1007/978-3-031-78192-6_13) is published in the 'International Conference on Pattern Recognition (ICPR) 2024. 
+### Watch on [YouTube](https://youtu.be/ilXNJBQeu88).
 ![Block](gRApIX.png)
 
 ## Unsupervised Segmentation Loss
